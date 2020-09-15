@@ -1,6 +1,6 @@
 *.xml
 .vscode
-.iml
+*.iml
 # Ignore the node_modules directory
 node_modules/
 
