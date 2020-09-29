@@ -1,19 +1,20 @@
 function multy(x,y){
-	var a=0;
+	let a=0;
 	if(y===0) {
 		a=1;
 	}
 	else if(y<0){
-		a=1/x;
+		a=x;
 		for(let i=1;i<y;i++){
 			a*=x;
 		}
+		a=1/a;
 	}else{
 		a=x;
 		for(let i=1;i<y;i++){
 			a*=x;
 		}
 	}
-	console.log(a);
+	return a;
 }
 multy(2,3);
