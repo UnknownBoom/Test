@@ -1,4 +1,5 @@
-fun multy(x,y){
-	Console.log(Math.pow(x,y));
+function multy(x,y){
+	var a  = Math.pow(x,y)
+	console.log(a);
 }
 multy(2,3);
